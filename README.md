@@ -29,7 +29,7 @@
 
 ## 🛠 Link to the Backend <a name="back-end"></a>
 
-- [Link](https://github.com/Roland-Ntwali/Hello-rails-back-end.git)
+- [Link](https://github.com/Roland-Ntwali/Hello_rails_backend)
 
 ## 🛠 Built With <a name="built-with"></a>
 
