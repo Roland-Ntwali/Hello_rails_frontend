@@ -1,11 +1,11 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
-/* eslint-disable */
+
 const initialState = {
   greeting: '',
   error: null,
 };
 
-const url = 'http://127.0.0.1:3000/api/v1/random_greeting'
+const url = 'http://127.0.0.1:3000/api/v1/random_greeting';
 
 export const getGreetings = createAsyncThunk('greetings/getGreetings', async () => {
   try {
@@ -38,4 +38,4 @@ const greetingsSlice = createSlice({
 });
 
 export default greetingsSlice.reducer;
-// 
+//
